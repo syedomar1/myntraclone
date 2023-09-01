@@ -272,7 +272,7 @@ footer{
   
   #section_3{
       margin-top: 3rem;
-      font-size: 1.2rem;
+      font-size: 1rem;
   }
   #section_3 a{
       display: inline-block;
@@ -289,7 +289,7 @@ footer{
       justify-content: space-between;
   }
   #section_4 a {
-      font-size: 1.rem;
+      font-size: 1rem;
       text-transform: capitalize;
   }
   #section_5 p, #section_6 p, ol{
@@ -316,38 +316,6 @@ footer{
   #section_6 p{
       margin-top: 1rem;
   }
-
-@media (max-width: 450px){
-  .search{
-  width: 72vw;
-}
-}
-@media (max-width: 1550px){
-  nav ul li{
-  list-style: none;
-  padding: 5 10px;
-  font-size: 15px
-}
-  
-  .containerHeader{
-    padding: 0 2vw;
-  }
-  
-  header{
-    heigth:122px;
- }
- nav{
-  flex-direction: column;
-  align-items: center;
- }
- .right{
-   flex-direction: column; 
- } 
-  .rightbox{
-    display: flex;
-    margin: 12px;
-  }
-}
 
 /*My CSS*/
 .logo{
@@ -411,4 +379,41 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+a:hover {
+  color: red;
+}
+
+
+@media (max-width: 450px){
+  .search{
+  width: 72vw;
+}
+}
+@media (max-width: 1550px){
+  nav ul li{
+  list-style: none;
+  padding: 5 10px;
+  font-size: 15px
+}
+  
+  .containerHeader{
+    padding: 0 2vw;
+  }
+  
+  header{
+    heigth:122px;
+ }
+ nav{
+  flex-direction: column;
+  align-items: center;
+ }
+ .right{
+   flex-direction: column; 
+ } 
+  .rightbox{
+    display: flex;
+    margin: 12px;
+  }
 }
